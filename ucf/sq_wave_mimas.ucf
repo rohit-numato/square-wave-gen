@@ -1,0 +1,5 @@
+CONFIG VCCAUX=3.3;
+
+NET "clk"             LOC = V10     | IOSTANDARD = LVCMOS33 | PERIOD = 100MHz ;
+NET "sq_wave"         LOC = P15     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST ;  #D1        
+NET "rst_n"           LOC = M18     | IOSTANDARD = LVCMOS33 | DRIVE = 8 | SLEW = FAST | PULLUP; #SW1  
