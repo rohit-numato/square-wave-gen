@@ -1,10 +1,10 @@
 `timescale 1ns / 1ps
 
 module square_wave_gen(
-						input clk,
-						input rst_n,
-						output sq_wave
-						);
+	input clk,
+	input rst_n,
+	output sq_wave
+);
 
 	// Input clock is 100MHz
 	localparam CLOCK_FREQUENCY = 100000000;
